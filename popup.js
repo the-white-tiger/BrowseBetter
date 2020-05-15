@@ -15,6 +15,7 @@ $(function () {
                 { blacklist: stringfiedNewArray },
                 function () {
                     console.log('New Word Added');
+                    window.close()
                 }
             );
         });
